@@ -39,7 +39,7 @@ Vue, Vuex, Vuetify, Postgress, Knex, ProCreate, Just In Mind
 Click the thumbnail below to view the initial wireframe:
 
 
-[![Watch the video](https://i.ytimg.com/vi/nGJvzOBgFOg/1.jpg)](https://youtu.be/nGJvzOBgFOg)
+[![Watch the video](https://i.ytimg.com/vi/nGJvzOBgFOg/1.jpg)]("target=_blank" https://youtu.be/nGJvzOBgFOg)
 
 ### User Stories
 see trello board:
