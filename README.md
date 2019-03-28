@@ -1,7 +1,16 @@
 # capstone-aged-and-infused
 
 ## Problem Statement
-	As users are constantly inundated with the digital world, selling products online has become an increasingly difficult. In order to excite customers and in turn, drive sales - Small Businesses must get creative in their approach to engage customers with their products. Infusion Finder will enrich the leisure cocktail experience by allowing consumers to create customizable infusions to use in craft cocktails.
+
+	As users are constantly inundated with the digital world, selling products online has 
+	
+	become an increasingly difficult. In order to excite customers and in turn, drive sales - 
+	
+	Small Businesses must get creative in their approach to engage customers with their 
+	
+	products. Infusion Finder will enrich the leisure cocktail experience by allowing consumers 
+	
+	to create customizable infusions to use in craft cocktails.
 
 ### ERD 
 ![alt text](https://github.com/Mstapleton22/capstone-aged-and-infused/blob/master/aged%20and%20infused.png?raw=true "ERD")
