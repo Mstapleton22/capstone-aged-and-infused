@@ -1,29 +1,46 @@
 # capstone-aged-and-infused
 
-## Project setup
+## Problem Statement
 ```
-npm install
+	As media, marketing and imagery continue to command control from online users, breaking into business and still find a way to excite the consume is no longer novelty. In order to engage customers and in turn, dive sales - Small Businesses must be tactile in their approach to liven up their products. We do this through technology. To enrich the alcohol infusion process by allowing consumers to create customizable infusions with the intent to use them in predefined and obscure cocktails. With ease, we are providing users with allergies, or different taste to find the right infusion to suite their needs.
+
 ```
 
-### Compiles and hot-reloads for development
+### ERD 
+<!-- Compiles and hot-reloads for development -->
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+https://www.draw.io/#G1l2miaazeSbqWb99U1wIm0NG6dQXh8enk
 ```
 
-### Run your tests
+### Server Route Plan
+<!-- Compiles and minifies for production -->
 ```
-npm run test
+Utilizing PostgreSQL, Express.js and Knex.js, I will be implimenting:
+
 ```
 
-### Lints and fixes files
+### List of Tech used
+<!-- Run your tests -->
 ```
-npm run lint
+Vue, Vuex, Vuetify, Postgress, Knex, ProCreate, Just In Mind
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Wire Frames
+Lints and fixes files
+```
+[![Watch the video](public/Aged&Infused.png)](https://youtu.be/nGJvzOBgFOg)
+```
+
+### User Stories
+```
+see trello board:
+https://trello.com/b/3GCX2GoA/aged-infused
+```
+### Color Palette 
+```
+ insert here
+```
+### Project Management Tools
+```
+https://trello.com/b/3GCX2GoA/aged-infused
+```
