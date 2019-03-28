@@ -24,6 +24,7 @@ Vue, Vuex, Vuetify, Postgress, Knex, ProCreate, Just In Mind
 ```
 
 ### Wire Frames
+Click the thumbnail below to view the initial wireframe: 
 [![Watch the video](https://i.ytimg.com/vi/nGJvzOBgFOg/1.jpg)](https://youtu.be/nGJvzOBgFOg)
 
 ### User Stories
