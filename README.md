@@ -3,7 +3,6 @@
 ## Problem Statement
 
 	As media, marketing and imagery continue to command control from online users, breaking 
-	
 	into business and still find a way to excite the consumer is no longer novelty. In order to 
 	
 	engage customers and in turn, dive sales - Small Businesses must be tactile in their 
@@ -12,9 +11,7 @@
 	
 	infusion process by allowing consumers to create customizable infusions with the intent to 
 	
-	use them in predefined and obscure cocktails. With ease, we are providing users with 
-	
-	allergies, or different taste to find the right infusion to suite their needs.
+	use them in predefined and obscure cocktails.
 
 
 
