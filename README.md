@@ -4,7 +4,7 @@
 
 	As media, marketing and imagery continue to command control from online users, breaking 
 	
-	into business and still find a way to excite the consume is no longer novelty. In order to 
+	into business and still find a way to excite the consumer is no longer novelty. In order to 
 	
 	engage customers and in turn, dive sales - Small Businesses must be tactile in their 
 	
@@ -20,9 +20,6 @@
 
 ### ERD 
 ![alt text](https://github.com/Mstapleton22/capstone-aged-and-infused/blob/master/aged%20and%20infused.png?raw=true "ERD")
-
-https://www.draw.io/#G1l2miaazeSbqWb99U1wIm0NG6dQXh8enk
-
 
 ### Server Route Plan
 
