@@ -29,12 +29,20 @@ https://www.draw.io/#G1l2miaazeSbqWb99U1wIm0NG6dQXh8enk
 ```
 Utilizing PostgreSQL, Express.js and Knex.js, I will be implimenting:
 
+liquor table: GET (/liquor)
+cocktail_category table: GET (/cocktail_category)
+ingredient table: GET (/cocktail_category)
+preset table: GET (/preset:id)
+delete custome infustion and start again: DEL (/)
+
+join table:
+liquor.name cocktail_category.name ingredient.name 
 ```
 
 ### List of Tech used
 FrontEnd: Vue, Vuex, Vuetify
 
-BackEnd: Postgress, Knex
+BackEnd: Postgress, Knex.js, Express.js
 
 Design: ProCreate, InDesign
 
