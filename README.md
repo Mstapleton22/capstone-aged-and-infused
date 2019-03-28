@@ -19,6 +19,8 @@
 
 
 ### ERD 
+![alt text](https://github.com/Mstapleton22/capstone-aged-and-infused/blob/master/aged%20and%20infused.png?raw=true "ERD")
+
 https://www.draw.io/#G1l2miaazeSbqWb99U1wIm0NG6dQXh8enk
 
 
