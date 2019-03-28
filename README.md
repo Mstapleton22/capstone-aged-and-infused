@@ -1,19 +1,7 @@
 # capstone-aged-and-infused
 
 ## Problem Statement
-
-	As media, marketing and imagery continue to command control from online users, breaking 
-	into business and still find a way to excite the consumer is no longer novelty. In order to 
-	
-	engage customers and in turn, dive sales - Small Businesses must be tactile in their 
-	
-	approach to liven up their products. We do this through technology. To enrich the alcohol 
-	
-	infusion process by allowing consumers to create customizable infusions with the intent to 
-	
-	use them in predefined and obscure cocktails.
-
-
+	As users are constantly inundated with the digital world, selling products online has become an increasingly difficult. In order to excite customers and in turn, drive sales - Small Businesses must get creative in their approach to engage customers with their products. Infusion Finder will enrich the leisure cocktail experience by allowing consumers to create customizable infusions to use in craft cocktails.
 
 ### ERD 
 ![alt text](https://github.com/Mstapleton22/capstone-aged-and-infused/blob/master/aged%20and%20infused.png?raw=true "ERD")
@@ -34,22 +22,6 @@ GET
    - this route will get all of the ingredient categories by ID to create buttons
   (/preset:id)
    - this route will get all of the preset infusions by ID to create pre created infusions
-PATCH
-   - unused 
-POST
-   - unused
-DEL 
-   - unused
-   
-  
-liquor table: GET (/liquor)
-cocktail_category table: GET (/cocktail_category)
-ingredient table: GET (/ingredient_category)
-preset table: GET (/preset:id)
-delete custome infustion and start again: DEL (/)
-
-join table:
-liquor.name cocktail_category.name ingredient.name 
 ```
 
 ### List of Tech used
