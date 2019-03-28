@@ -24,11 +24,15 @@ Vue, Vuex, Vuetify, Postgress, Knex, ProCreate, Just In Mind
 ```
 
 ### Wire Frames
-Click the thumbnail below to view the initial wireframe: 
+Click the thumbnail below to view the initial wireframe:
+
+
 [![Watch the video](https://i.ytimg.com/vi/nGJvzOBgFOg/1.jpg)](https://youtu.be/nGJvzOBgFOg)
 
 ### User Stories
 see trello board:
+
+
 https://trello.com/b/3GCX2GoA/aged-infused
 
 ### Color Palette 
