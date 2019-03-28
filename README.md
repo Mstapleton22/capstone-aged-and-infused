@@ -30,10 +30,12 @@ Utilizing PostgreSQL, Express.js and Knex.js, I will be implimenting:
 ```
 
 ### List of Tech used
+FrontEnd: Vue, Vuex, Vuetify
 
-```
-Vue, Vuex, Vuetify, Postgress, Knex, ProCreate, Just In Mind
-```
+BackEnd: Postgress, Knex
+
+Design: ProCreate, InDesign
+
 
 ### Wire Frames
 Click the thumbnail below to view the initial wireframe:
@@ -48,10 +50,9 @@ see trello board:
 https://trello.com/b/3GCX2GoA/aged-infused
 
 ### Color Palette 
-```
- insert here
-```
+![alt text](https://drive.google.com/file/d/0By_oA_Z0oxCGRVlXcVgtcTJqbkRwUXpvU3p3alBzcS1GdEVV/view?usp=sharing "Color Scheme")
+
 ### Project Management Tools
-```
 https://trello.com/b/3GCX2GoA/aged-infused
-```
+
+https://www.justinmind.com/
