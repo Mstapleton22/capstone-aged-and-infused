@@ -24,7 +24,7 @@ Vue, Vuex, Vuetify, Postgress, Knex, ProCreate, Just In Mind
 ```
 
 ### Wire Frames
-[![Watch the video](https://www.youtube.com/upload_thumbnail?v=nGJvzOBgFOg&t=1&ts=1553793389606)](https://youtu.be/nGJvzOBgFOg)
+[![Watch the video](https://i.ytimg.com/vi/nGJvzOBgFOg/1.jpg)](https://youtu.be/nGJvzOBgFOg)
 
 ### User Stories
 see trello board:
