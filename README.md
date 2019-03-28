@@ -50,7 +50,7 @@ see trello board:
 https://trello.com/b/3GCX2GoA/aged-infused
 
 ### Color Palette 
-![alt text](https://coolors.co/492d1d-1f1a16-ad5e34-303d4a-ffffff "Color Scheme")
+![alt text](https://coolors.co/export/png/492d1d-1f1a16-ad5e34-303d4a-ffffff "Color Scheme")
 
 ### Project Management Tools
 https://trello.com/b/3GCX2GoA/aged-infused
