@@ -22,10 +22,29 @@
 
 ```
 Utilizing PostgreSQL, Express.js and Knex.js, I will be implimenting:
-
+GET
+  (/)
+  I will get all of the data from the liquor, cocktail_category, ingredient, preset
+  routes
+  (/liquor:id)
+   - this route will get all of the liquor by ID to create buttons
+  (/cocktail_category:id)
+   - this route will get all of the cocktail categories by ID to create buttons
+  (/ingredient_category)
+   - this route will get all of the ingredient categories by ID to create buttons
+  (/preset:id)
+   - this route will get all of the preset infusions by ID to create pre created infusions
+PATCH
+   - unused 
+POST
+   - unused
+DEL 
+   - unused
+   
+  
 liquor table: GET (/liquor)
 cocktail_category table: GET (/cocktail_category)
-ingredient table: GET (/cocktail_category)
+ingredient table: GET (/ingredient_category)
 preset table: GET (/preset:id)
 delete custome infustion and start again: DEL (/)
 
