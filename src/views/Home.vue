@@ -1,18 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Aged and Infused"/>
+    <div class="container">
+      <Preset/>
+      <Liquor/>
+      <Category/>
+      <Ingredients/>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import Preset from "@/components/Preset.vue";
+import Liquor from "@/components/Liquor.vue";
+import Ingredients from "@/components/Ingredients.vue";
+import Category from "@/components/Category.vue";
 
 export default {
   name: "home",
   components: {
-    HelloWorld
+    Preset,
+    Liquor,
+    Ingredients,
+    Category
   }
 };
 </script>
