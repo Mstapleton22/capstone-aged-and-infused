@@ -12,12 +12,18 @@
 <script>
 import Home from "@/views/Home.vue";
 import Welcome from "@/views/Welcome.vue";
+import Liquor from "@/components/Liquor.vue";
 
 export default {
   name: "app",
   components: {
     Home,
     Welcome
+  },
+  methods: {
+    log($event) {
+      console.log($event);
+    }
   }
 };
 </script>
