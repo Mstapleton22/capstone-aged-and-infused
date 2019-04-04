@@ -1,10 +1,10 @@
 <template>
   <div class="home">
     <div class="container">
-      <!-- <Preset/>
+      <Preset/>
       <Liquor/>
       <Category/>
-      <Ingredients/> -->
+      <Ingredients/>
     </div>
   </div>
 </template>
