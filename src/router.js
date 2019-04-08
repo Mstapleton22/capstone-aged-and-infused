@@ -13,11 +13,11 @@ export default new Router({
       name: 'Welcome',
       component: () => import('./views/Welcome.vue'),
     },
-    {
-      path: '/home',
-      name: 'Home',
-      component: Home,
-    },
+    // {
+    //   path: '/home',
+    //   name: 'Home',
+    //   component: Home,
+    // },
     {
       path: '/disclaimer',
       name: 'Disclaimer',
@@ -49,9 +49,13 @@ export default new Router({
       component: () => import('./components/Preset.vue'),
     },
     {
-      path: '/category',
+      path: '/ingredientcategory',
       name: 'Ingredient_Category',
       component: () => import('./components/Category.vue'),
+    }, {
+      path: '/ingredients',
+      name: 'Ingredients',
+      component: () => import('./components/Ingredients.vue'),
     },
   ],
 });
