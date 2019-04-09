@@ -2,13 +2,10 @@
   <div>
     <Banner/>
     <div class="output">This is your output!</div>
-    <div class="custom" v-for="item in allCustom" :key="item.id">
-      {{item.selectedLiquor}}
-      {{item.selectedCategory}}
-      {{item.selectedIngredients}}
-    </div>
-    <!-- <div class="category">{{this.getCategoryID}}</div>
-    <div class="category">{{this.getCategoryName}}</div>-->
+    <div class="custom">{{this.customLiquor}}</div>
+    <img class="blueberry" alt="Aged and Infused Logo" src="../assets/DSC_0304.jpg">
+    <div class="custom">{{this.customCategory}}</div>
+    <div class="custom" v-for="item in customIngredients" :key="item.id">{{item}}</div>
   </div>
 </template>
 
@@ -25,25 +22,23 @@ export default {
       ingredientType: null,
       getCategoryID: 0,
       getCategoryName: ""
+      // customLiquor: "",
+      // customCategory: "",
+      // customIngredients: ""
     };
   },
   methods: {},
   computed: mapGetters(["allCustom"]),
-  // ...mapState({
-  //   custom: state => state.custom.selectedLiquor
-  // }),
-  // custom: {
-  //   customInfusion() {
-  //     // console.log(store.getters.allCustom);
-  //     return store.getters.allCustom;
-  //   }
   created() {
-    // this.allCustom();
+    this.customLiquor = store.getters.allCustom.selectedLiquor;
+    this.customCategory = store.getters.allCustom.selectedCategory;
+    this.customIngredients = store.getters.allCustom.selectedIngredients;
   },
   components: {
     Banner
   }
   // mounted() {
+  // this.mapIngredients();
   // }
 };
 </script>

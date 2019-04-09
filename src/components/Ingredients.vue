@@ -7,17 +7,17 @@
     <div class="ingredients w3-animate-bottom">
       <!-- <h1 class="ingredientType" v-for="type in allSeparateIngredients"></h1> -->
 
-      <div>
+      <!-- <div>
         There are this many ingredients:
         {{specificIngredients}}
-      </div>
+      </div>-->
       <button
         v-for="ingredient in specificIngredients"
         :key="ingredient.id"
         v-on:click="ingredientSelect(ingredient.name)"
         class="ingredient"
       >
-        {{ingredient.id}}
+        {{ingredient.name}}
         <br>
         <img :src="ingredient.image">
       </button>
@@ -71,7 +71,7 @@ export default {
       const ingredient = store.getters.allIngredients.filter(ingredient => {
         // return separate.includes(ingredient.id);
         if (separate.includes(ingredient.id)) {
-          return (this.specificIngredients.push(ingredient));
+          return this.specificIngredients.push(ingredient);
         }
       });
       console.log("ingredient", ingredient);
