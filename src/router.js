@@ -52,10 +52,16 @@ export default new Router({
       path: '/ingredientcategory',
       name: 'Ingredient_Category',
       component: () => import('./components/Category.vue'),
-    }, {
+    },
+    {
       path: '/ingredients',
       name: 'Ingredients',
       component: () => import('./components/Ingredients.vue'),
+    },
+    {
+      path: '/output',
+      name: 'output',
+      component: () => import('./components/Output.vue'),
     },
   ],
 });
