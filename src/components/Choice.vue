@@ -1,7 +1,7 @@
 <template>
   <div>
     <Banner/>
-    <div class="line w3-animate-bottom">________</div>
+    <div class="line1 w3-animate-bottom">________</div>
     <div
       class="presetNotice w3-animate-bottom"
     >As you may already know, Aged and Infused has already done the hard work for you! Taste tested, boozey bae approved, Preset infusions could be yours! Just click "Preset" below.</div>
@@ -32,6 +32,7 @@ export default {
 .choiceButton {
   padding: 3%;
   margin: 3%;
+  width: 90vw;
   font-size: 1em;
   font-weight: bold;
   background-color: white;
@@ -39,18 +40,16 @@ export default {
 }
 .presetNotice {
   margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right: 10%;
   line-height: 1.6;
   font-weight: bold;
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .presetNotice {
-    padding-right: 10%;
-    padding-left: 5%;
-  }
-  .line {
+    margin-left: 10%;
     margin-right: 10%;
+  }
+  .line1 {
+    margin-top: 20%;
   }
 }
 </style>

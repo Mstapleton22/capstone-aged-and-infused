@@ -14,7 +14,7 @@ const getters = {
 //action fetches the data from the backend
 const actions = {
   async fetchCategories({ commit }) {
-    const response = await fetch("http://localhost:3000/ingredientcategory")
+    const response = await fetch("https://stark-scrubland-91299.herokuapp.com/ingredientcategory")
       .then(resp => resp.json())
     // .then(resp => (this.fetchPreset = resp))
     // console.log(response)

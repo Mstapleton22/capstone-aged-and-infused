@@ -6,7 +6,7 @@ Vue.use(Router);
 
 export default new Router({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: process.env.BASE_URL || "https://aged-and-infused-761e3.firebaseapp.com",
   routes: [
     {
       path: '/',

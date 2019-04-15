@@ -44,7 +44,7 @@ export default {
 };
 </script>
 
-<style scoped >
+<style scoped>
 .liquor {
   margin: 2%;
   padding: 10%;
@@ -54,7 +54,7 @@ export default {
   font-weight: bold;
 }
 .question {
-  padding-top: 10%;
+  padding-top: 20%;
   font-size: 1.3em;
 }
 .liquors {

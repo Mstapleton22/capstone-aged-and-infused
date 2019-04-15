@@ -4,6 +4,7 @@
       <img class="logo" alt="Aged and Infused Logo" src="../assets/AgedandInfused-MainWhite.png">
       <h1 class="headerText">Disclaimer</h1>
     </div>
+    <div class="line w3-animate-bottom">________</div>
     <div class="disclaimerNotice w3-animate-bottom">
       Aged and Infused wants to make sure you are properly Aged before continuing through to Infuse! Please
       confirm that you are over the age of 21 years old and are legally able to utilize our site.
@@ -11,6 +12,7 @@
     <router-link class="link w3-animate-bottom" v-bind:to="{ path: `/DisclaimerFail` }">
       <button class="disclaimerButton">I am not 21</button>
     </router-link>
+    <br>
     <router-link class="link w3-animate-bottom" v-bind:to="{ path: `/introduction` }">
       <button class="disclaimerButton">I am 21 or over</button>
     </router-link>
@@ -56,8 +58,10 @@ export default {};
     padding-bottom: 8%;
     background-color: #492d1d;
   }
+  .line {
+    padding-top: 18%;
+  }
   .disclaimerNotice {
-    padding-top: 20%;
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 10%;
@@ -66,6 +70,7 @@ export default {};
   }
   .disclaimerButton {
     padding: 10px;
+    width: 90vw;
     margin: 3%;
     background-color: white;
     border: 3px solid #303d4a;

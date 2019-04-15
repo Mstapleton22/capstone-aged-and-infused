@@ -1,14 +1,14 @@
 <template>
   <div class="welcome">
     <img class="logo" alt="Aged and Infused Logo" src="../assets/AgedandInfused-MainWhite.png">
+    <div class="blueberryImg">
+      <img class="bottle" alt="Aged and Infused Logo" src="../assets/bottle.png">
+      <img class="blueberry" alt="Aged and Infused Logo" src="../assets/lemon.png">
+      <img class="infuser" alt="Aged and Infused Logo" src="../assets/infuser.png">
+    </div>
     <router-link class="link" v-bind:to="{ path: `/disclaimer` }">
       <button class="welcomeButton">Let's get that Booze</button>
     </router-link>
-    <div class="blueberryImg">
-      <img class="blueberry" alt="Aged and Infused Logo" src="../assets/blueberry.png">
-      <img class="blueberry" alt="Aged and Infused Logo" src="../assets/lemon.png">
-      <img class="blueberry" alt="Aged and Infused Logo" src="../assets/grapefruit.png">
-    </div>
   </div>
 </template>
 
@@ -32,7 +32,7 @@ export default {
 .welcomeButton {
   padding: 10px;
   margin: 5%;
-  width: 80vw;
+  width: 90vw;
   background-color: transparent;
   color: white;
   border: 3px solid white;
@@ -53,8 +53,22 @@ export default {
     height: 20vh;
     width: 100vw;
   }
+  .blueberryImg {
+    /* background-color: #59728a; */
+    margin: 5%;
+  }
+  .bottle {
+    width: 15vw;
+    padding: 3%;
+    color: white;
+  }
   .blueberry {
-    width: 20vw;
+    width: 25vw;
+    padding: 3%;
+    color: white;
+  }
+  .infuser {
+    width: 15vw;
     padding: 3%;
     color: white;
   }

@@ -25,30 +25,35 @@ const getters = {
 //action fetches the data from the backend
 const actions = {
   async fetchPreset({ commit }) {
-    const response = await fetch("http://localhost:3000/preset")
+    const response = await fetch("https://cors-anywhere.herokuapp.com/https://stark-scrubland-91299.herokuapp.com/preset")
       .then(resp => resp.json())
     commit('setPreset', response)
+
   },
   async fetchLiquor({ commit }) {
-    const response = await fetch("http://localhost:3000/liquor")
+    const response = await fetch("https://cors-anywhere.herokuapp.com/https://stark-scrubland-91299.herokuapp.com/liquor")
+      // console.log(response)
       .then(resp => resp.json())
     commit('setLiquor', response)
   },
   async fetchIngredients({ commit }) {
-    const response = await fetch("http://localhost:3000/ingredients")
+    const response = await fetch("https://cors-anywhere.herokuapp.com/https://stark-scrubland-91299.herokuapp.com/ingredients")
       .then(resp => resp.json())
     // console.log(response)
     commit('setIngredients', response)
+
   },
   async fetchCategories({ commit }) {
-    const response = await fetch("http://localhost:3000/ingredientcategory")
+    const response = await fetch("https://cors-anywhere.herokuapp.com/https://stark-scrubland-91299.herokuapp.com/ingredientcategory")
       .then(resp => resp.json())
     commit('setCategory', response)
+
   },
   async fetchIngCategory({ commit }) {
-    const response = await fetch("http://localhost:3000/category_and_ingredient")
+    const response = await fetch("https://cors-anywhere.herokuapp.com/https://stark-scrubland-91299.herokuapp.com/category_and_ingredient")
       .then(resp => resp.json())
     commit('setSeparateIngredients', response)
+
   },
 
 }

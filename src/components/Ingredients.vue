@@ -7,10 +7,6 @@
     <div class="ingredients w3-animate-bottom">
       <!-- <h1 class="ingredientType" v-for="type in allSeparateIngredients"></h1> -->
 
-      <!-- <div>
-        There are this many ingredients:
-        {{specificIngredients}}
-      </div>-->
       <button
         v-for="ingredient in specificIngredients"
         :key="ingredient.id"
@@ -18,14 +14,13 @@
         class="ingredient"
       >
         {{ingredient.name}}
-        <br>
-        <img :src="ingredient.image">
+        <!-- <br> -->
+        <img class="icons" :src="ingredient.image">
       </button>
-      <!-- <div>{{this.getCategoryID}}</div> -->
     </div>
-    <button>
-      <router-link class="link" v-bind:to="{ path: `/output`}">Check that custom infusion</router-link>
-    </button>
+    <router-link class="link" v-bind:to="{ path: `/output`}">
+      <button class="customButton">Check that custom infusion</button>
+    </router-link>
   </div>
 </template>
 
@@ -42,6 +37,7 @@ export default {
       ingredients: [],
       getCategoryID: null,
       specificIngredients: []
+      // myList: []
     };
   },
   methods: {
@@ -56,9 +52,6 @@ export default {
         );
       }
     },
-    // getImage(ingredient) {
-    //   return require("./public/" + ingredient.image);
-    // },
     filterIng(arr, category) {
       console.log(store.getters.allSeparateIngredients);
       const separate = store.getters.allSeparateIngredients
@@ -69,7 +62,6 @@ export default {
           return ingredient.ingredient_id;
         });
       const ingredient = store.getters.allIngredients.filter(ingredient => {
-        // return separate.includes(ingredient.id);
         if (separate.includes(ingredient.id)) {
           return this.specificIngredients.push(ingredient);
         }
@@ -77,13 +69,24 @@ export default {
       console.log("ingredient", ingredient);
       console.log("separate", separate);
     }
+    // async load() {
+    //   // start waiting
+    //   this.$wait.start("my list is to load");
+
+    //   this.myList = await new Promise(resolve => {
+    //     setTimeout(() => resolve(store.getters.allCustom), 2000);
+    //   });
+
+    //   // stop waiting
+    //   this.$wait.end("my list is to load");
+    // }
   },
   computed: mapGetters(["allIngredients", "allSeparateIngredients"]),
   created() {
     this.fetchIngredients();
+    // this.load();
     this.fetchIngCategory();
     this.getCategoryID = this.$route.params.id;
-    // this.getCategoryName = this.$route.params.categoryName;
   },
   components: {
     Banner
@@ -99,20 +102,34 @@ export default {
   margin: 2%;
   padding: 6%;
   background-color: #303d4a;
-  border: 5px solid #ad5e34;
   color: #ffffff;
   font-size: 1.2em;
+  width: 80vw;
+  border: 5px solid #303d4a;
+  background-color: #59728a;
 }
 img {
   height: 50%;
   width: 10vw;
 }
 .question {
-  padding-top: 20%;
+  padding-top: 15%;
   margin-right: 2%;
   margin-left: 2%;
   margin-bottom: 10%;
   font-size: 1.3em;
+  font-weight: bold;
+}
+.icons {
+  width: 12vw;
+  /* background-color: lightgray; */
+}
+.customButton {
+  padding: 10px;
+  width: 90vw;
+  margin: 3%;
+  background-color: white;
+  border: 3px solid #303d4a;
   font-weight: bold;
 }
 </style>

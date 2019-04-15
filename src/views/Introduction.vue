@@ -67,8 +67,8 @@ export default {
 
 <style scoped>
 .intros {
-  padding-right: 15%;
-  padding-left: 5%;
+  /* padding-right: 15%;
+  padding-left: 5%; */
   /* padding-top: 3%; */
   font-weight: bold;
   font-size: 1em;
@@ -101,21 +101,12 @@ export default {
   margin-top: 20%;
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  /* .header {
-    margin-top: 10%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    background-color: #492d1d;
-  } */
   .disclaimerNotice {
     padding-top: 20%;
-    margin-left: 10px;
-    margin-right: 10px;
   }
   .intros {
-    padding-right: 15%;
-    padding-left: 5%;
-    /* padding-top: 2%; */
+    padding-right: 10%;
+    padding-left: 10%;
   }
   .intro1 {
     margin-bottom: 2%;
@@ -131,11 +122,12 @@ export default {
   }
   .button {
     margin-top: 5%;
-    margin-left: 35%;
+    width: 90vw;
     padding: 3%;
     background-color: white;
     border: 3px solid #303d4a;
     font-size: 1.1em;
+    font-weight: bold;
   }
 }
 </style>
