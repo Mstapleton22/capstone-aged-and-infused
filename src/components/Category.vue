@@ -15,7 +15,7 @@
       >
         <router-link
           class="link"
-          v-bind:to="{ name: 'Ingredients', params: {id: 0}}"
+          v-bind:to="{ name: 'Ingredients', params: {id: category.id}}"
         >{{category.name}}</router-link>
       </button>
     </div>

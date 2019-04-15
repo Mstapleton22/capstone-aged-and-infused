@@ -14,17 +14,31 @@
     <div class="prompt">Ingredients to infuse:</div>
     <div class="custom" v-for="item in customIngredients" :key="item.id">{{item}}</div>
 
-    <div class="steps">
-      <div class="question">What do we do now?</div>
-      <p>Now that you've chosen your ingredients, it's time to combine them with {{this.customLiquor}}.</p>
-      <ol>
-        <li>Wait! 7 - 10 days of infusing is what we recommend.</li>
-        <li>Serve as you please!</li>
-        <li>A few of our recommended cocktails can be found below.</li>
-        <li>Don't forget to share your experience below!</li>
-      </ol>
-    </div>
-    <div class="cocktails" v-for="cocktail in allLiquor" :key="cocktail">{{this.cocktail}}</div>
+    <div class="message">What do we do now?</div>
+    <p
+      class="steps"
+    >Now that you've chosen your ingredients, it's time to combine them with {{this.customLiquor}}.</p>
+    <ol class="todo">
+      <div class="line">________</div>
+      <li>Wait! 7 - 10 days of infusing is what we recommend.</li>
+      <div class="line">________</div>
+      <li>Serve as you please!</li>
+      <div class="cocktails">
+        <a href="https://www.liquor.com/recipes/manhattan-2/" title="Website name">
+          <i class="fas fa-wine-glass"></i>
+        </a>
+        <a href="http://www.website.com" title="Website name">
+          <i class="fas fa-glass-whiskey"></i>
+        </a>
+        <a href="http://www.website.com" title="Website name">
+          <i class="fas fa-cocktail"></i>
+        </a>
+      </div>
+      <div class="line">________</div>
+      <li>A few of our recommended cocktails can be found below.</li>
+      <div class="line">________</div>
+      <li>Don't forget to share your experience below!</li>
+    </ol>
     <HelloSocial></HelloSocial>
   </div>
 </template>
@@ -115,14 +129,29 @@ img {
     line-height: 1.6;
     font-size: 1.2em;
   }
-  .question {
-    margin-bottom: 10%;
-    font-size: 1.3em;
+  .steps {
+    padding: 5%;
     font-weight: bold;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    background-color: #492d1d;
-    color: white;
+    line-height: 1.6;
+    font-size: 1.3em;
+    background-color: lightgrey;
+  }
+  .todo {
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.3;
+    font-size: 1.2em;
+  }
+  li {
+    margin-top: 3%;
+    font-weight: bold;
+  }
+  i {
+    color: black;
+    background-color: black;
+  }
+  .line1 {
+    margin-top: 3%;
   }
 }
 </style>
