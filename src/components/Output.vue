@@ -23,19 +23,22 @@
       <li>Wait! 7 - 10 days of infusing is what we recommend.</li>
       <div class="line">________</div>
       <li>Serve as you please!</li>
+      <div class="line">________</div>
+      <li>A few of our recommended cocktails can be found below.</li>
       <div class="cocktails">
         <a href="https://www.liquor.com/recipes/manhattan-2/" title="Website name">
           <i class="fas fa-wine-glass"></i>
+          Manhattan
         </a>
-        <a href="http://www.website.com" title="Website name">
+        <a href="https://www.liquor.com/recipes/mint-julep/" title="Website name">
           <i class="fas fa-glass-whiskey"></i>
+          Mint Julep
         </a>
-        <a href="http://www.website.com" title="Website name">
+        <a href="https://www.liquor.com/recipes/bourbon-old-fashioned/" title="Website name">
           <i class="fas fa-cocktail"></i>
+          Old Fashioned
         </a>
       </div>
-      <div class="line">________</div>
-      <li>A few of our recommended cocktails can be found below.</li>
       <div class="line">________</div>
       <li>Don't forget to share your experience below!</li>
     </ol>
@@ -148,7 +151,16 @@ img {
   }
   i {
     color: black;
-    background-color: black;
+    padding-right: 5%;
+    /* background-color: black; */
+  }
+  a {
+    /* margin-left: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
   }
   .line1 {
     margin-top: 3%;
